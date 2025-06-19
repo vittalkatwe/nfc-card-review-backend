@@ -27,8 +27,9 @@ public class Business {
     private String contactEmail;
 
     @NotBlank(message = "Review link is required")
-    @Column(name = "review_link", nullable = false)
+    @Column(name = "review_link", nullable = false, length = 1000)
     private String reviewLink;
+
 
     // Constructors
     public Business() {}
