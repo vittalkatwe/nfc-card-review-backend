@@ -55,7 +55,7 @@ public class SecurityConfig {
     @Bean
     public CorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration config = new CorsConfiguration();
-        config.setAllowedOrigins(List.of("https://prismatic-peony-378192.netlify.app")); // ✅ Your actual Netlify URL
+        config.setAllowedOrigins(List.of("https://nfccardreview.netlify.app")); // ✅ Your actual Netlify URL
         config.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
         config.setAllowedHeaders(List.of("*"));
         config.setAllowCredentials(true); // ✅ If you’re using auth
