@@ -71,7 +71,8 @@ spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
 ## Steps to run
 ```bash
 git clone https://github.com/vittalkatwe/nfc-card-review-backend.git
-cd nfc-card-review-backend-main
+cd nfc-card-review-backend
 mvn clean install
 mvn spring-boot:run
 ```
+
